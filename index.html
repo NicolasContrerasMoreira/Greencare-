@@ -1,81 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mi Jardín - Servicio de cuidado de plantas</title>
+	<title> Página web con tonos verdes oscuros y claros </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
-		<nav class="topnav">
-			<a href="#" class="active">Inicio</a>
-			<a href="#">Servicios</a>
-			<a href="#">Galería</a>
-			<a href="#">Contacto</a>
-			<a href="#">Sobre Nosotros</a>
-			<a href="#" class="icon" onclick="myFunction()">&#9776;</a>
+		<nav>
+			<div class="logo">
+				<a href="#">Logo</a>
+			</div>
+			<div class="menu-toggle">
+				<i class="fa fa-bars"></i>
+			</div>
+			<ul class="menu">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
 		</nav>
 	</header>
-	
 	<main>
-		<section class="slideshow-container">
-			<div class="mySlides fade">
-				<img src="img/plant1.jpg">
-				<div class="caption">Planta de interiores</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<img src="img/plant2.jpg">
-				<div class="caption">Plantas para exterior</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<img src="img/plant3.jpg">
-				<div class="caption">Plantas en macetas</div>
-			</div>
-			
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-		</section>
-		
-		<section class="services">
-			<h2>Nuestros Servicios</h2>
-			<ul>
-				<li>Cuidado de plantas de interior y exterior</li>
-				<li>Riego y abonado</li>
-				<li>Tratamiento de plagas y enfermedades</li>
-				<li>Asesoramiento para la selección de plantas</li>
-			</ul>
-		</section>
-		
-		<section class="gallery">
-			<h2>Galería</h2>
-			<div class="gallery-container">
-				<img src="img/gallery1.jpg">
-				<img src="img/gallery2.jpg">
-				<img src="img/gallery3.jpg">
-				<img src="img/gallery4.jpg">
-				<img src="img/gallery5.jpg">
-				<img src="img/gallery6.jpg">
+		<section>
+			<h1>Slideshow</h1>
+			<div class="slideshow">
+				<img src="slide1.jpg" alt="Slide 1">
+				<img src="slide2.jpg" alt="Slide 2">
+				<img src="slide3.jpg" alt="Slide 3">
 			</div>
 		</section>
-		
-		<section class="contact">
-			<h2>Contacto</h2>
-			<form action="#">
-				<label for="name">Nombre:</label>
-				<input type="text" id="name" name="name"><br>
-
-				<label for="email">Correo electrónico:</label>
-				<input type="email" id="email" name="email"><br>
-
-				<label for="message">Mensaje:</label>
-				<textarea id="message" name="message"></textarea><br>
-
-				<input type="submit" value="Enviar">
-			</form>
-		</section>
-		
-		<section class="about">
-			<h2
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
